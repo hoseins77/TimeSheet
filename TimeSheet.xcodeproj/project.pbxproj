@@ -7,23 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AD3E932205A2EA005ACADA /* UIViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD3E922205A2EA005ACADA /* UIViewExtentions.swift */; };
+		00AD3E952205B736005ACADA /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD3E942205B736005ACADA /* PersistenceService.swift */; };
+		00CD51892206E63000C2E3E4 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD51872206E63000C2E3E4 /* Day.swift */; };
+		00CD518E2206F39700C2E3E4 /* DayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD518D2206F39700C2E3E4 /* DayObject.swift */; };
+		00E5331D220590EE00872EDA /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E5331C220590EE00872EDA /* DayCell.swift */; };
 		00E9806B22009A970024F657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9806A22009A970024F657 /* AppDelegate.swift */; };
-		00E9806D22009A970024F657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9806C22009A970024F657 /* ViewController.swift */; };
+		00E9806D22009A970024F657 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9806C22009A970024F657 /* MainController.swift */; };
 		00E9807022009A970024F657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E9806E22009A970024F657 /* Main.storyboard */; };
 		00E9807322009A970024F657 /* TimeSheet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00E9807122009A970024F657 /* TimeSheet.xcdatamodeld */; };
 		00E9807522009A980024F657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E9807422009A980024F657 /* Assets.xcassets */; };
 		00E9807822009A980024F657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E9807622009A980024F657 /* LaunchScreen.storyboard */; };
+		00E980852200A1680024F657 /* Vazir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00E980842200A1680024F657 /* Vazir-Medium.ttf */; };
+		00F273F12208312C00DCC46F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F273EF2208312C00DCC46F /* Interface.storyboard */; };
+		00F273F32208312E00DCC46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F273F22208312E00DCC46F /* Assets.xcassets */; };
+		00F273FA2208312E00DCC46F /* TimeSheetWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 00F273F92208312E00DCC46F /* TimeSheetWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00F273FF2208312E00DCC46F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F273FE2208312E00DCC46F /* InterfaceController.swift */; };
+		00F274012208312E00DCC46F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F274002208312E00DCC46F /* ExtensionDelegate.swift */; };
+		00F274032208312E00DCC46F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F274022208312E00DCC46F /* NotificationController.swift */; };
+		00F274052208312F00DCC46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F274042208312F00DCC46F /* Assets.xcassets */; };
+		00F2740A2208312F00DCC46F /* TimeSheetWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 00F273ED2208312C00DCC46F /* TimeSheetWatch.app */; };
+		00F2741422083BFA00DCC46F /* Vazir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F2741322083BFA00DCC46F /* Vazir-Medium.ttf */; };
+		00F2741522083BFA00DCC46F /* Vazir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F2741322083BFA00DCC46F /* Vazir-Medium.ttf */; };
+		00F2741622083BFA00DCC46F /* Vazir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00F2741322083BFA00DCC46F /* Vazir-Medium.ttf */; };
+		00F2741F2208587200DCC46F /* DialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2741E2208587200DCC46F /* DialogController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		00F273FB2208312E00DCC46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E9805F22009A960024F657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F273F82208312E00DCC46F;
+			remoteInfo = "TimeSheetWatch Extension";
+		};
+		00F274082208312F00DCC46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E9805F22009A960024F657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F273EC2208312C00DCC46F;
+			remoteInfo = TimeSheetWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00F274102208312F00DCC46F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00F273FA2208312E00DCC46F /* TimeSheetWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F274122208312F00DCC46F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				00F2740A2208312F00DCC46F /* TimeSheetWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00AD3E922205A2EA005ACADA /* UIViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtentions.swift; sourceTree = "<group>"; };
+		00AD3E942205B736005ACADA /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		00CD51872206E63000C2E3E4 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		00CD518D2206F39700C2E3E4 /* DayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayObject.swift; sourceTree = "<group>"; };
+		00E5331C220590EE00872EDA /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
 		00E9806722009A970024F657 /* TimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E9806A22009A970024F657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00E9806C22009A970024F657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00E9806C22009A970024F657 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		00E9806F22009A970024F657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00E9807222009A970024F657 /* TimeSheet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeSheet.xcdatamodel; sourceTree = "<group>"; };
 		00E9807422009A980024F657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E9807722009A980024F657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E9807922009A980024F657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E980842200A1680024F657 /* Vazir-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vazir-Medium.ttf"; sourceTree = "<group>"; };
+		00F273ED2208312C00DCC46F /* TimeSheetWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSheetWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F273F02208312C00DCC46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		00F273F22208312E00DCC46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F273F42208312E00DCC46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F273F92208312E00DCC46F /* TimeSheetWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimeSheetWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F273FE2208312E00DCC46F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		00F274002208312E00DCC46F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		00F274022208312E00DCC46F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		00F274042208312F00DCC46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F274062208312F00DCC46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F274072208312F00DCC46F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		00F2741322083BFA00DCC46F /* Vazir-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Vazir-Medium.ttf"; path = "TimeSheet/SupportFiles/Vazir-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		00F2741E2208587200DCC46F /* DialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +113,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00F273F62208312E00DCC46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CD51862206E5B300C2E3E4 /* Database Models */ = {
+			isa = PBXGroup;
+			children = (
+				00CD51872206E63000C2E3E4 /* Day.swift */,
+			);
+			path = "Database Models";
+			sourceTree = "<group>";
+		};
 		00E9805E22009A960024F657 = {
 			isa = PBXGroup;
 			children = (
 				00E9806922009A970024F657 /* TimeSheet */,
+				00F273EE2208312C00DCC46F /* TimeSheetWatch */,
+				00F273FD2208312E00DCC46F /* TimeSheetWatch Extension */,
 				00E9806822009A970024F657 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				00E9806722009A970024F657 /* TimeSheet.app */,
+				00F273ED2208312C00DCC46F /* TimeSheetWatch.app */,
+				00F273F92208312E00DCC46F /* TimeSheetWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +154,86 @@
 		00E9806922009A970024F657 /* TimeSheet */ = {
 			isa = PBXGroup;
 			children = (
-				00E9806A22009A970024F657 /* AppDelegate.swift */,
-				00E9806C22009A970024F657 /* ViewController.swift */,
+				00E9807F22009B460024F657 /* SupportFiles */,
+				00E9808322009B6A0024F657 /* Services */,
+				00E9808222009B620024F657 /* Model */,
+				00E9808122009B5B0024F657 /* View */,
+				00E9808022009B550024F657 /* Controller */,
 				00E9806E22009A970024F657 /* Main.storyboard */,
-				00E9807422009A980024F657 /* Assets.xcassets */,
-				00E9807622009A980024F657 /* LaunchScreen.storyboard */,
 				00E9807922009A980024F657 /* Info.plist */,
-				00E9807122009A970024F657 /* TimeSheet.xcdatamodeld */,
 			);
 			path = TimeSheet;
+			sourceTree = "<group>";
+		};
+		00E9807F22009B460024F657 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				00E980842200A1680024F657 /* Vazir-Medium.ttf */,
+				00E9807122009A970024F657 /* TimeSheet.xcdatamodeld */,
+				00E9806A22009A970024F657 /* AppDelegate.swift */,
+				00E9807622009A980024F657 /* LaunchScreen.storyboard */,
+				00E9807422009A980024F657 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		00E9808022009B550024F657 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00E9806C22009A970024F657 /* MainController.swift */,
+				00F2741E2208587200DCC46F /* DialogController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00E9808122009B5B0024F657 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00E5331C220590EE00872EDA /* DayCell.swift */,
+				00AD3E922205A2EA005ACADA /* UIViewExtentions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00E9808222009B620024F657 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00CD51862206E5B300C2E3E4 /* Database Models */,
+				00CD518D2206F39700C2E3E4 /* DayObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00E9808322009B6A0024F657 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00AD3E942205B736005ACADA /* PersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		00F273EE2208312C00DCC46F /* TimeSheetWatch */ = {
+			isa = PBXGroup;
+			children = (
+				00F2741322083BFA00DCC46F /* Vazir-Medium.ttf */,
+				00F273EF2208312C00DCC46F /* Interface.storyboard */,
+				00F273F22208312E00DCC46F /* Assets.xcassets */,
+				00F273F42208312E00DCC46F /* Info.plist */,
+			);
+			path = TimeSheetWatch;
+			sourceTree = "<group>";
+		};
+		00F273FD2208312E00DCC46F /* TimeSheetWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				00F273FE2208312E00DCC46F /* InterfaceController.swift */,
+				00F274002208312E00DCC46F /* ExtensionDelegate.swift */,
+				00F274022208312E00DCC46F /* NotificationController.swift */,
+				00F274042208312F00DCC46F /* Assets.xcassets */,
+				00F274062208312F00DCC46F /* Info.plist */,
+				00F274072208312F00DCC46F /* PushNotificationPayload.apns */,
+			);
+			path = "TimeSheetWatch Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +246,51 @@
 				00E9806322009A970024F657 /* Sources */,
 				00E9806422009A970024F657 /* Frameworks */,
 				00E9806522009A970024F657 /* Resources */,
+				00F274122208312F00DCC46F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00F274092208312F00DCC46F /* PBXTargetDependency */,
 			);
 			name = TimeSheet;
 			productName = TimeSheet;
 			productReference = 00E9806722009A970024F657 /* TimeSheet.app */;
 			productType = "com.apple.product-type.application";
+		};
+		00F273EC2208312C00DCC46F /* TimeSheetWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F274112208312F00DCC46F /* Build configuration list for PBXNativeTarget "TimeSheetWatch" */;
+			buildPhases = (
+				00F273EB2208312C00DCC46F /* Resources */,
+				00F274102208312F00DCC46F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F273FC2208312E00DCC46F /* PBXTargetDependency */,
+			);
+			name = TimeSheetWatch;
+			productName = TimeSheetWatch;
+			productReference = 00F273ED2208312C00DCC46F /* TimeSheetWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		00F273F82208312E00DCC46F /* TimeSheetWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F2740F2208312F00DCC46F /* Build configuration list for PBXNativeTarget "TimeSheetWatch Extension" */;
+			buildPhases = (
+				00F273F52208312E00DCC46F /* Sources */,
+				00F273F62208312E00DCC46F /* Frameworks */,
+				00F273F72208312E00DCC46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeSheetWatch Extension";
+			productName = "TimeSheetWatch Extension";
+			productReference = 00F273F92208312E00DCC46F /* TimeSheetWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +302,12 @@
 				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					00E9806622009A970024F657 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					00F273EC2208312C00DCC46F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					00F273F82208312E00DCC46F = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -115,6 +326,8 @@
 			projectRoot = "";
 			targets = (
 				00E9806622009A970024F657 /* TimeSheet */,
+				00F273EC2208312C00DCC46F /* TimeSheetWatch */,
+				00F273F82208312E00DCC46F /* TimeSheetWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +339,28 @@
 			files = (
 				00E9807822009A980024F657 /* LaunchScreen.storyboard in Resources */,
 				00E9807522009A980024F657 /* Assets.xcassets in Resources */,
+				00E980852200A1680024F657 /* Vazir-Medium.ttf in Resources */,
+				00F2741422083BFA00DCC46F /* Vazir-Medium.ttf in Resources */,
 				00E9807022009A970024F657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F273EB2208312C00DCC46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F273F32208312E00DCC46F /* Assets.xcassets in Resources */,
+				00F273F12208312C00DCC46F /* Interface.storyboard in Resources */,
+				00F2741522083BFA00DCC46F /* Vazir-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F273F72208312E00DCC46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F2741622083BFA00DCC46F /* Vazir-Medium.ttf in Resources */,
+				00F274052208312F00DCC46F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,13 +371,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E9806D22009A970024F657 /* ViewController.swift in Sources */,
+				00E9806D22009A970024F657 /* MainController.swift in Sources */,
+				00AD3E952205B736005ACADA /* PersistenceService.swift in Sources */,
+				00AD3E932205A2EA005ACADA /* UIViewExtentions.swift in Sources */,
 				00E9806B22009A970024F657 /* AppDelegate.swift in Sources */,
+				00E5331D220590EE00872EDA /* DayCell.swift in Sources */,
+				00CD518E2206F39700C2E3E4 /* DayObject.swift in Sources */,
+				00F2741F2208587200DCC46F /* DialogController.swift in Sources */,
+				00CD51892206E63000C2E3E4 /* Day.swift in Sources */,
 				00E9807322009A970024F657 /* TimeSheet.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00F273F52208312E00DCC46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F274032208312E00DCC46F /* NotificationController.swift in Sources */,
+				00F274012208312E00DCC46F /* ExtensionDelegate.swift in Sources */,
+				00F273FF2208312E00DCC46F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F273FC2208312E00DCC46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F273F82208312E00DCC46F /* TimeSheetWatch Extension */;
+			targetProxy = 00F273FB2208312E00DCC46F /* PBXContainerItemProxy */;
+		};
+		00F274092208312F00DCC46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F273EC2208312C00DCC46F /* TimeSheetWatch */;
+			targetProxy = 00F274082208312F00DCC46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		00E9806E22009A970024F657 /* Main.storyboard */ = {
@@ -160,6 +423,14 @@
 				00E9807722009A980024F657 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00F273EF2208312C00DCC46F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F273F02208312C00DCC46F /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,7 +557,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
 				INFOPLIST_FILE = TimeSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +576,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
 				INFOPLIST_FILE = TimeSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +587,88 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00F2740B2208312F00DCC46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
+				IBSC_MODULE = TimeSheetWatch_Extension;
+				INFOPLIST_FILE = TimeSheetWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = safaie.com.TimeSheet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		00F2740C2208312F00DCC46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
+				IBSC_MODULE = TimeSheetWatch_Extension;
+				INFOPLIST_FILE = TimeSheetWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = safaie.com.TimeSheet.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		00F2740D2208312F00DCC46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
+				INFOPLIST_FILE = "TimeSheetWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safaie.com.TimeSheet.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		00F2740E2208312F00DCC46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN6KX6553V;
+				INFOPLIST_FILE = "TimeSheetWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safaie.com.TimeSheet.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -332,6 +689,24 @@
 			buildConfigurations = (
 				00E9807D22009A980024F657 /* Debug */,
 				00E9807E22009A980024F657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F2740F2208312F00DCC46F /* Build configuration list for PBXNativeTarget "TimeSheetWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F2740D2208312F00DCC46F /* Debug */,
+				00F2740E2208312F00DCC46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F274112208312F00DCC46F /* Build configuration list for PBXNativeTarget "TimeSheetWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F2740B2208312F00DCC46F /* Debug */,
+				00F2740C2208312F00DCC46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
